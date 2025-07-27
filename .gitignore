@@ -1,0 +1,52 @@
+# Virtual environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+develop-eggs/
+*.egg-info
+.eggs/
+parts/
+sdist/
+var/
+*.egg
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+.pytest_cache/
+htmlcov/
+.nox/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store # macOS specific
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# My Project Specific Outputs (Crucial for your case)
+# This assumes all files matching 'context_*.json' are generated outputs.
+context_*.json
+tempCodeRunnerFile.py # This seems like a temporary file from an IDE
