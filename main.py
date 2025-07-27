@@ -4,10 +4,12 @@ import json
 user_prompt = input("Lets design! describe your idea:\n> ")
 
 labels = {
-    "category": ["fitness", "fashion", "food", "education", "tech", "real estate", "dental", "health care"],
+    "category": ["fitness", "fashion", "food", "education", "tech", "real estate", "dental", "health care","jewellery"],
     "style": ["modern", "grunge", "minimal", "vintage", "retro"],
-    "platform": ["Instagram", "Facebook", "YouTube", "Print"],
-    "tone": ["motivational", "professional", "casual", "formal"]
+    "platform": ["Instagram", "Facebook", "YouTube", "Print","LinkedIn"],
+    "tone": ["motivational", "professional", "casual", "formal"],
+    "size": ["A4","A3","A2"],
+
 }
 
 classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
